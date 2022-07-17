@@ -11,10 +11,10 @@ pipeline {
               echo 'Your job's testing is completed.'
             }
         }
-        stage('Deploy'){
-           steps{
-              echo 'Your job has been deployed.'
-           }
+        stage('Test') {
+          steps {
+              echo 'your job has been deployed.'
+            }
         }
     }
 }

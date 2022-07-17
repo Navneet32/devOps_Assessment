@@ -11,7 +11,7 @@ pipeline {
               echo 'Your job's testing is completed.'
             }
         }
-        stage('Test') {
+        stage('Deploy') {
           steps {
               echo 'your job has been deployed.'
             }
